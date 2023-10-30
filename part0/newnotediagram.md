@@ -32,4 +32,4 @@ participant server
     server-->>browser: [{ "content": "HTML is easy", "date": "2023-3-9" }, ... ]
     deactivate server
 
-    Note right of browser: The browser executes the callback function that renders the notes
+    Note right of browser: The browser executes the callback function that renders the notes.
